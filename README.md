@@ -5,11 +5,9 @@ This project sets up secure SSH local port forwarding to enable access to a MySQ
 
 ---
 
-## Architecture: Infrastructure 
+## Architecture: Infrastructure
 ![Project Architecture](./SSH_LOCAL_PORT.png)
 
-## Architecture: Concept
-![Project Architecture](./SSH_LOCAL_PORT2.png)
 
 ## 🚀 **Architecture Overview**
 - **Bastion Host**:
