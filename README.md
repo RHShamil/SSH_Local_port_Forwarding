@@ -1,4 +1,4 @@
-# SSH Local Port Forwarding with Pulumi
+# SSH Local Port Forwarding 
 
 ## 📌 **Project Overview**
 This project sets up secure SSH local port forwarding to enable access to a MySQL server hosted in a private subnet through a bastion host in AWS. The infrastructure is created using **Pulumi**.
