@@ -1,0 +1,16 @@
+[Unit]
+Description=SSH Tunnel Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ssh_tunnel_local.sh
+RemainAfterExit=yes
+Restart=on-failure
+RestartSec=5
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
